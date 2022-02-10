@@ -8,6 +8,16 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+       .main{
+     background-color:black;
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+    margin-top:0px;
+    padding:400px;
+    color:black;
+    }
+    </style>
 </head>
 <body>
 <header class="p-3 bg-black text-white">
@@ -21,16 +31,99 @@
             <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
                 <li><a href="intex.html" class="nav-link px-2 text-secondary">Home</a></li>
                 <li><a href="Company.html" class="nav-link px-2 text-white">The CocaCola Company</a></li>
-                <li><a href="Musica.html" class="nav-link px-2 text-white">Musica</a></li>
+                <li><a href="Musica.html" class="nav-link px-2 text-white">Música</a></li>
                 <li><a href="Productos.html" class="nav-link px-2 text-white">Productos</a></li>
-                <li><a href="#" class="nav-link px-2 text-white">Preguntas</a></li>
+                <li><a href="Preguntas.html" class="nav-link px-2 text-white">Preguntas</a></li>
             </ul>
         </div>
     </div>
+    <h1 align="center" class="text-danger">CocaCola® Music Experience</h1>
+    <div class="alert alert-danger d-flex align-items-center" role="alert">
+        <svg  width="34" height="24" fill="currentColor" viewBox="0 0 16 16">
+            <div class="spinner-grow text-danger" role="status">
+                <span class="visually-hidden">Loading...</span>
+            </div>
+        </svg>
+        <div>
+            &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;¡SORTEO de 2 entradas para el CocaCola Music Experience. ¡Baja al final y participa!
+            &nbsp; &nbsp;
+        </div>
+    </div>
 </header>
+<div align="center" style="background-color:black;">
+    <iframe width="760" height="515" src="https://www.youtube.com/embed/9aLFp-GbvoI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen align="center"></iframe>
+</div>
+</iframe>
 
+<footer class="footer text-center py-3 bg-black">
+    <br><br>
+    <h5 align="center" class="text-white">La música no ha parado. Y no lo ha hecho porque ha seguido sonando en nuestro interior, así que, <br> ¿cómo íbamos a parar nosotros si la música no lo hace?
+    <br><br> El Festival CocaCola Music Experience 2021, volvió el pasado 4 de septiembre en el recinto ferial de IFEMA Madrid, <br>donde pudimos disfrutar de música en directo con un aforo reducido y en streaming, en Coke TV.
+       <br><br> Bailamos y lo dimos todo con los temazos de Sebastián Yatra, Nicki Nicole, Tini, Ana Mena, Cepeda, Rocco Hunt, <br> Funzo & Baby Loud, Ptazeta, Eva B, Hugo Cobo, Samantha, Marc Seguí, Walls, Marlena, Luna Valle, Valantain y Unique
+        <br><br>¡No faltó el buen rollo! <br> <br>
+        Una vez más, ¡lo volvimos a hacer! Os dijimos que volvíamos, y así ha sido. Porque la música no ha parado, <br>porque todo esto no sería posible sin vosotros que estáis siempre al otro lado dando vuestro máximo y habéis seguido <br> demostrando que las ganas van en aumento.
+        Queremos que sigáis acompañándonos en esta aventura desde cualquier <br> parte del mundo y para ello os traemos un SORTEAZO de 2 entradas. Apúntate y ven a darlo todo en la #CCME22 <br> <br> ¡HEMOS VUELTO, PORQUE LA MÚSICA NO TENÍA QUE PARAR!</h5>
 
-<footer class="footer text-center py-2 bg-black">
+    <div align="center">
+
+        <form action="signup" method="post" id="signup" class="text-danger">
+
+            <legend>Para participar en el SORTEO rellene sus datos:</legend>
+            <div style="margin:10px;">
+                <div class="field">
+                    <p>
+                        <label for="fname">Nombre:</label>
+                        <input type="text" id="fname" name="name" >
+                        <small></small>
+                    </p>
+
+                </div>
+                <div class="field">
+                    <p>
+                        <label for="lname">Apellidos:</label>
+                        <input type="text" id="lname" name="lname" >
+                        <small></small>
+                    </p>
+
+                </div>
+                <div class="field">
+                    <p>
+                        <label for="email">Email:</label>
+                        <input type="text" id="email" name="email" >
+                        <small></small>
+                    </p>
+
+                </div>
+
+                <div class="field">
+                    <p>
+                        <label for="phone">Número de teléfono:</label>
+                        <input type="tel" id="phone" name="phone" >
+                        <small></small>
+                    </p>
+
+                </div>
+                <div class="field">
+                    <label>Seleccione fecha de nacimiento:</label>
+                    <input type="date" min="1922-01-01" max="2008-02-31">
+                    <small></small>
+                </div>
+                <div class="field">
+                    <br>
+                        <label for="contact">He leído las condiciones legales</label>
+                        <input type="checkbox" id="contact" name="drone" value="contact" >
+                     <small></small>
+                </div>
+                <p style="float:center;">
+                    <br>
+                    <button type="submit">Participar</button>
+                </p>
+
+            </div>
+        </form>
+        <script src="app.js"></script>
+    </div>
+    <br>
     <div class="container" >
         <p class="mb-1" style="color:white;">© 1886-2022 The CocaCola Company</p>
     </div>
@@ -39,4 +132,4 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
 </body>
-</html>>
+</html>

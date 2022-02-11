@@ -41,10 +41,8 @@ function validateEmail(input, requiredMsg, invalidMsg) {
 
 const form = document.querySelector("#signup");
 
-const NAME_REQUIRED = "Por favor introduzca su nombre";
-const APELLIDOS_REQUIRED = "Por favor introduzca su apellido";
-const EMAIL_REQUIRED = "Por favor introduzca su email";
-const TELEFONO_REQUIRED = "Por favor introduzca su telefono";
+
+
 
 
 form.addEventListener("submit", function (event) {
@@ -52,14 +50,13 @@ form.addEventListener("submit", function (event) {
 	event.preventDefault();
 
 	// validate the form
-	let nameValid = hasValue(form.elements["fname"], NAME_REQUIRED);
-	let surnameValid = hasValue(form.elements["lname"], APELLIDOS_REQUIRED);
-	let emailValid= hasValue(form.elements["email"], EMAIL_REQUIRED);
-	let telfValid = hasValue(form.elements["phone"], TELEFONO_REQUIRED);
+
+
 
 
 	// if valid, submit the form.
-	if (nameValid && surnameValid && emailValid && telfValid) {
-		alert("Se han recogido correctamente sus datos."+"\nLa información recogida es: " +"\nNombre: "+form.elements["fname"].value + "\nApellidos: " + form.elements["lname"].value+ "\nEmail: "+ form.elements["email"].value + "\nTelefono: "+ form.elements["phone"].value+"\n ¡Suerte!");
-	}
+    if(true){
+    		alert("Se ha recogido correctamente su pregunta. \n Le responderemos a la mayor brevedad posible sus datos.");
+    }
+
 });

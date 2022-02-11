@@ -21,7 +21,8 @@ La práctica cuenta con 4 páginas html adicionales al index.html:
 Mencionar que todas ellas cuentasn con una barra de navegación por la cual se puede acceder a cualquiera de las otras páginas html que componen el site y con un footer con la marca y los años.
 
 En resumen, la práctica cuenta con:
-•HTML
+
+**HTML**
  - Títulos
  - Párrafos
  - Multimedia (fotos y videos)
@@ -32,7 +33,7 @@ En resumen, la práctica cuenta con:
  - Popup para el formulario
  - Tamaños de letras
  
-•Framework CSS Bootstrap
+**Framework CSS Bootstrap**
   - Grid
   - Nav
   - Footer

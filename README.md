@@ -1,4 +1,4 @@
-# Practica3
+# Práctica3
 
 Para esta segunda práctica hay que diseñar una site haciendo uso de html y CSS mediante el framework CSS Bootstrap. Se ha optado por cambiar la empresa de la primera práctica. Esta vez se trata de CocaCola. 
 

@@ -48,4 +48,4 @@ En resumen, la práctica cuenta con:
   - Carousel
   - Formularios
 
-Para poder acceder a la web lanzada en Git Pages ha de acceder al siguiente link: 
+Para poder acceder a la web lanzada en Git Pages ha de acceder al siguiente URL: https://cristinaalvarez.github.io/Practica3/

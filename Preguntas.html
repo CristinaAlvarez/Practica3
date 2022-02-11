@@ -9,6 +9,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
+
    .main{
     background-image: url('https://imagenes.milenio.com/vYVzydR-5cdwES1R84qxj2vAXrs=/936x566/https://www.milenio.com/uploads/media/2020/09/29/te-gusta-este-refresco-shutterstock.jpg');
     background-color:black;
@@ -55,21 +56,53 @@
         <br><br><br><br><br><br>
 
     </div>
-
 <footer class="footer text-center py-5 bg-black" style="background-color:black;">
-        <h3 align="center" class="text-white">Si tiene alguna pregunta más no dude en contactar con nosotros. <br>Le responderemos lo antes posible.</h3>
-        <div>
-            <div class="mb-3" >
-                <label for="exampleFormControlInput1" class="form-label">Email address</label>
-                <input type="email" class="form-control" style="background-color:white; color:black;" id="exampleFormControlInput1" placeholder="name@example.com">
-            </div>
-            <div class="mb-3">
-                <label for="exampleFormControlTextarea1" class="form-label">Comentario</label>
-                <textarea class="form-control" style="background-color:white;color:white;" id="exampleFormControlTextarea1" rows="3"></textarea>
-            </div>
-            <button type="submit" class="btn btn-secondary">Enviar</button>
-            <script src="app2.js"></script>
+    <h3 align="center" class="text-white"  style="background-color:black;">Si tiene alguna pregunta más no dude en contactar con nosotros. <br>Le responderemos lo antes posible.</h3>
+
+    <div align="center" style="background-color:black">
+        <div class="mb-3" style="width:30%" align="center">
+            <label for="exampleFormControlInput1" class="form-label" style="color:white">Email address</label>
+            <input type="email" class="form-control" style="background-color:white; color:black;" id="exampleFormControlInput1" placeholder="name@example.com">
         </div>
+        <div class="mb-3" style="width:30%" align="center">
+            <label for="exampleFormControlTextarea1" class="form-label" style="color:white">Comentario</label>
+            <textarea class="form-control" style="background-color:white;color:black;" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+
+
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+            Enviar
+        </button>
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">
+                            <p align="center">
+                                Mensaje
+                            </p>
+                        </h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+
+                    <div class="modal-body">
+                        <p>
+                            Se ha recogido su pregunta correctamente.
+                        </p>
+                    </div>
+
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <br><br>
     <div class="container" >
         <p class="mb-1" style="color:white;">© 1892-2022 The CocaCola Company</p>

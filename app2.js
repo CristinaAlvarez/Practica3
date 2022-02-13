@@ -56,7 +56,7 @@ form.addEventListener("submit", function (event) {
 
 	// if valid, submit the form.
     if(true){
-    		alert("Se ha recogido correctamente su pregunta. \n Le responderemos a la mayor brevedad posible sus datos.");
+    		alert("Se ha recogido correctamente su pregunta. \n Le responderemos a la mayor brevedad posible.");
     }
 
 });
